@@ -4,7 +4,7 @@ Arduino / ESP32 library for **SST Sensing LuminOx** optical oxygen sensors
 (LOX-01, LOX-02, and compatible variants – luminescence quenching technology)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/placeholder-luminox-sensor.jpg" alt="LuminOx optical oxygen sensor" width="280">
+  <img src="[https://github.com/user-attachments/assets/placeholder-luminox-sensor.jpg](https://www.medicaldevice-network.com/wp-content/uploads/sites/23/2021/10/Optical-Oxygen-Sensors-1.jpg)" alt="LuminOx optical oxygen sensor" width="280">
   <br>
   <small>LuminOx LOX-02 – optical O₂ sensor (image: SST Sensing)</small>
 </p>
