@@ -127,17 +127,11 @@ void loop() {
 ````
 
 |S.no |Symptom               | Likely cause                | Fix suggestion            |
-|-----|----------------------|-----------------------------|---------------------------|
 |1.   | Always TIMEOUT       | RX/TX swapped               | Swap pins 3 ↔ 4
-|-----|----------------------|-----------------------------|---------------------------|
-|2.   |No response/garbage | Voltage too low (<4.5 V)      | Measure voltage on pin 1–2|
-|-----|----------------------|-----------------------------|---------------------------|
+|2.   |No response/garbage   | Voltage too low (<4.5 V)    | Measure voltage on pin 1–2|
 |3.   |Garbled data          | Wrong baud rate             | Must be 9600 8N1 – no other rates|
-|-----|----------------------   |-----------------------------|---------------------------|
-|4.   |Pressure / %O₂ always -1 | LOX-01 variant              | Normal – only ppO₂ + temp available
-|-----|----------------------|-----------------------------   |---------------------------|
-|5.   |Status not 0000 | Sensor error (E xx)| "Check raw response, power cycle"|
-|-----|----------------------|-----------------------------|---------------------------|
+|4.   |Pressure / %O₂ always -1 | LOX-01 variant           | Normal – only ppO₂ + temp available
+|5.   |Status not 0000 | Sensor error (E xx)               | "Check raw response, power cycle"|
 |6.   |No sensor info (#0/#1/#2) | Still in stream mode    | Library forces M 1 on begin() |
 
 
