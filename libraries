@@ -1,8 +1,9 @@
-name=LuminOx
+name = LuminOx
 version=1.0.0
-author=chiranjeev veer singh
+Author = Chiranjeev Veer Singh
 maintainer=chiranjeev veer singh
 sentence=Arduino library for SST Sensing LuminOx optical oxygen sensors (LOX-01, LOX-02)
 paragraph=Supports UART communication in Poll mode, automatic detection of sensor type (LOX-01/LOX-02), full parsing of ppO₂, %O₂, temperature, pressure and status. Includes sensor information commands (#0, #1, #2).
 category=Sensors
 url=https://github.com/veersingh671/LuminOx
+
