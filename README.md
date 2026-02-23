@@ -126,7 +126,8 @@ void loop() {
 }
 ````
 
-|S.no |Symptom               | Likely cause                | Fix suggestion            |
+|S.no |Symptom               | Likely cause                | Fix suggestion   
+|-----|----------------------|-----------------------------|---------------------------|
 |1.   | Always TIMEOUT       | RX/TX swapped               | Swap pins 3 ↔ 4
 |2.   |No response/garbage   | Voltage too low (<4.5 V)    | Measure voltage on pin 1–2|
 |3.   |Garbled data          | Wrong baud rate             | Must be 9600 8N1 – no other rates|
