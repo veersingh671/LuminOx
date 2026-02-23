@@ -1,0 +1,37 @@
+#######################################
+# Syntax Types:
+# KEYWORD1  →  Classes, Datatypes, Structures
+# KEYWORD2  →  Methods / Functions
+# KEYWORD3  →  Constants
+# LITERAL1  →  Literals (rarely used)
+#######################################
+
+LuminOx	KEYWORD1
+LuminOxReading	KEYWORD1
+
+begin	KEYWORD2
+readAll	KEYWORD2
+getSensorInfo	KEYWORD2
+setDebug	KEYWORD2
+
+getO2Percent	KEYWORD2
+getPpO2	KEYWORD2
+getTemperature	KEYWORD2
+getPressure	KEYWORD2
+getStatus	KEYWORD2
+isValid	KEYWORD2
+getLastError	KEYWORD2
+
+valid	KEYWORD2
+status	KEYWORD2
+error	KEYWORD2
+raw	KEYWORD2
+
+ppO2_mbar	KEYWORD2
+o2_percent	KEYWORD2
+temperature_C	KEYWORD2
+pressure_mbar	KEYWORD2
+
+
+#LUMINOX_TIMEOUT_DEFAULT	LITERAL1
+#LUMINOX_POLL_MODE	LITERAL1
